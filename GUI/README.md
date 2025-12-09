@@ -91,6 +91,4 @@ Optimization: Trained using CrossEntropyLoss and Adam optimizer.
 
 ###  Disclaimer
 For Research and Educational Purposes Only. This tool is intended to demonstrate the capabilities of artificial intelligence in medical imaging analysis. It is not a certified medical device and should not be used for final clinical diagnosis or treatment decisions without the supervision of a qualified pathologist or medical professional.
-=======
-# BIA_course_2025-26_Group09
->>>>>>> 2fb0081329dfd856049c3694129eeefc6b9dce69
+
