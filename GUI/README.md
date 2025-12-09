@@ -24,15 +24,15 @@ Built with **Streamlit** and **PyTorch**, the system provides a clean, user-frie
 
 ### 1. Main Interface
 The clean and intuitive upload interface.
-![Main Interface](images/ui_main.png)
+![Main Interface](ui_main.png)
 
 ### 2. Analysis Result: Malignant
 Detection of high-risk tissue with high confidence.
-![Malignant Result](images/result_malignant.jpg)
+![Malignant Result](result_malignant.png)
 
 ### 3. Analysis Result: Benign
 Detection of low-risk tissue.
-![Benign Result](images/result_benign.jpg)
+![Benign Result](result_benign.png
 
 ## Installation
 
