@@ -32,7 +32,7 @@ Detection of high-risk tissue with high confidence.
 
 ### 3. Analysis Result: Benign
 Detection of low-risk tissue.
-![Benign Result](result_benign.png）
+![Benign Result](result_benign.png)
 
 ## Installation
 
