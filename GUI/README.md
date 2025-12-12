@@ -45,14 +45,8 @@ Detection of low-risk tissue.
 #### Step 1: Clone the Repository
 Clone the project and navigate to the GUI directory:
 ```bash
-# 1. Clone the entire repository
-git clone [https://github.com/RainbowBombs/BIA_course_2025-26_Group09.git](https://github.com/RainbowBombs/BIA_course_2025-26_Group09.git)
-
-# 2. Enter the project folder
-cd BIA_course_2025-26_Group09
-
-# 3. Enter the GUI directory 
-cd GUI
+git clone https://github.com/RainbowBombs/BIA_course_2025-26_Group09.git
+cd BIA_course_2025-26_Group09/GUI
 ```
 
 #### Step 2: Install Dependencies
