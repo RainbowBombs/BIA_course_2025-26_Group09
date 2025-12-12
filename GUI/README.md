@@ -14,7 +14,7 @@ Built with **Streamlit** and **PyTorch**, the system provides a clean, user-frie
 
 ## Features
 
-* **⚠️ 400X Magnification Optimized**: The model is specifically trained on **400x magnification** images (BreaKHis 400X dataset) for high-precision cellular analysis.
+* **400X Magnification Optimized**: The model is specifically trained on **400x magnification** images (BreaKHis 400X dataset) for high-precision cellular analysis.
 * **Automated Diagnosis**: Instantly classifies uploaded pathology slides (JPG, PNG, TIF).
 * **Confidence Metrics**: Displays precise probability scores and categorical risk levels.
 * **Adjustable Sensitivity**: Includes a sidebar slider to adjust the "Malignancy Threshold," allowing users to balance sensitivity vs. specificity based on clinical needs.
@@ -70,7 +70,7 @@ streamlit run app.py
 The application will automatically open in your default web browser (usually at http://localhost:8501).
 
 1. Upload: Drag and drop a pathology image into the file uploader.
-⚠️ Important Note: Please ensure the input image is at 400x magnification. Using images with other magnification levels (e.g., 40x, 100x, 200x) may result in inaccurate predictions as the model focuses on cellular details visible at 400x.
+**Important Note**: Please ensure the input image is at 400x magnification. Using images with other magnification levels (e.g., 40x, 100x, 200x) may result in inaccurate predictions as the model focuses on cellular details visible at 400x.
 
 2. Analyze: Click the "Analyze Image" button.
 
