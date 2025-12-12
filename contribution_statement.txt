@@ -1,0 +1,11 @@
+XU Chenzhi: explored model architectures and selected the backbone.
+
+XU Songxiang: implemented the modified ResNet18 architecture.
+
+YAO Shuo: conducted benchmark experiments and validated the preprocessing pipeline.
+
+GU Zhaoyu: performed systematic model evaluation and generalization testing.
+
+YAO Kaiwen: implemented the GUI application; wrote the documentation.
+
+ZHONG Yuting: wrote the project report.
