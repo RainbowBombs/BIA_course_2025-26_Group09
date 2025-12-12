@@ -127,7 +127,6 @@ if uploaded_file is not None:
     # Left Column: Original Image
     with col1:
         st.subheader("Original Image")
-        # 👇 这里修改了参数，黄框会消失
         st.image(image, use_container_width=True)
 
     # Right Column: Report
