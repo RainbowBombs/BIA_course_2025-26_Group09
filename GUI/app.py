@@ -109,12 +109,12 @@ if model is None:
     st.sidebar.warning(f"⚠️ Model file `{MODEL_PATH}` not found.")
     st.sidebar.info("Status: Demo Mode (Random Data)")
 else:
-    st.sidebar.success("✅ Model Loaded (ResNet18)")
+    st.sidebar.success("✅ Model Loaded (BreaKHis Analysis Network)")
     st.sidebar.info("Status: AI Inference Mode")
 
 # --- Main Page ---
 st.title("🔬 Breast Cancer Pathology AI Diagnosis")
-st.markdown(f"**Model Architecture:** ResNet18 | **Input Size:** {IMG_HEIGHT}x{IMG_WIDTH}")
+st.markdown(f"**Model Architecture:** BreaKHis Analysis Network | **Input Size:** {IMG_HEIGHT}x{IMG_WIDTH}")
 st.markdown("---")
 
 uploaded_file = st.file_uploader("Upload Pathology Slide (jpg, png, tif)", type=["jpg", "jpeg", "png", "tif"])
