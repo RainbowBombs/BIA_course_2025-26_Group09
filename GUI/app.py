@@ -14,7 +14,7 @@ warnings.filterwarnings("ignore")
 # ==========================================
 # 1. Configuration
 # ==========================================
-MODEL_PATH = 'resnet18_best.pth'
+MODEL_PATH = 'BreaKHis Analysis Network_best.pth'
 CLASSES = {0: 'Benign', 1: 'Malignant'}
 
 # Input dimensions
