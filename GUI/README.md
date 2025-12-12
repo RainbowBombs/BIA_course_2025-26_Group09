@@ -53,6 +53,7 @@ cd BIA_course_2025-26_Group09
 
 # 3. Enter the GUI directory 
 cd GUI
+```
 
 #### Step 2: Install Dependencies
 Install the required Python libraries using pip:
