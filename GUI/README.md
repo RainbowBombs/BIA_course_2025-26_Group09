@@ -8,7 +8,7 @@
 
 ## Overview
 
-This project is a deep learning-based web application designed to assist in the classification of breast cancer pathology images (Histopathology). It utilizes a fine-tuned **ResNet18** neural network to distinguish between **Benign** (low risk) and **Malignant** (high risk) tissue samples.
+This project is a deep learning-based web application designed to assist in the classification of breast cancer pathology images (Histopathology). It utilizes a fine-tuned **BreaKHis Analysis Network** to distinguish between **Benign** (low risk) and **Malignant** (high risk) tissue samples.
 
 Built with **Streamlit** and **PyTorch**, the system provides a clean, user-friendly interface for researchers and medical professionals to perform real-time image analysis.
 
