@@ -43,9 +43,7 @@ Detection of low-risk tissue.
 ### Steps: 
 
 #### Step 1: Clone the Repository
-```bash
-git clone 
-```
+
 #### Step 2: Install Dependencies
 Install the required Python libraries using pip:
 ```bash
