@@ -24,15 +24,15 @@ Built with **Streamlit** and **PyTorch**, the system provides a clean, user-frie
 
 ### 1. Main Interface
 The clean and intuitive upload interface.
-![Main Interface](images/ui_main.png)
+![Main Interface](ui_main.png)
 
 ### 2. Analysis Result: Malignant
 Detection of high-risk tissue with high confidence.
-![Malignant Result](images/result_malignant.jpg)
+![Malignant Result](result_malignant.png)
 
 ### 3. Analysis Result: Benign
 Detection of low-risk tissue.
-![Benign Result](images/result_benign.jpg)
+![Benign Result](result_benign.png)
 
 ## Installation
 
@@ -91,6 +91,4 @@ Optimization: Trained using CrossEntropyLoss and Adam optimizer.
 
 ###  Disclaimer
 For Research and Educational Purposes Only. This tool is intended to demonstrate the capabilities of artificial intelligence in medical imaging analysis. It is not a certified medical device and should not be used for final clinical diagnosis or treatment decisions without the supervision of a qualified pathologist or medical professional.
-=======
-# BIA_course_2025-26_Group09
->>>>>>> 2fb0081329dfd856049c3694129eeefc6b9dce69
+

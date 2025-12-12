@@ -8,7 +8,7 @@ import time
 import torch.nn.functional as F
 import warnings
 
-# --- 屏蔽系统警告 ---
+# --- Block system warning ---
 warnings.filterwarnings("ignore")
 
 # ==========================================
