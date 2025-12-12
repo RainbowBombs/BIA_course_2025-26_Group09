@@ -54,8 +54,7 @@ pip install -r requirements.txt
 
 #### Step 3: Model Setup
 Ensure the pre-trained model file is placed in the root directory:
-Filename: resnet18_best.pth
-Note: If the model is missing, you can retrain it using the provided Resnet18.ipynb notebook.
+Filename: BreaKHis Analysis Network_best.pth
 
 ###  Usage
 To launch the application, run the following command in your terminal:
@@ -75,7 +74,7 @@ The application will automatically open in your default web browser (usually at 
 4. Settings: Use the sidebar to adjust the diagnosis threshold if needed.
 
 ###  Model Technical Details
-Architecture: ResNet18 (Pre-trained on ImageNet).
+Architecture: BreaKHis Analysis Network (Pre-trained on ImageNet).
 
 Input Resolution: 700x460 pixels (Resized automatically during preprocessing).
 
