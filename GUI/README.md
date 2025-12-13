@@ -36,12 +36,6 @@ Detection of low-risk tissue.
 
 ## Installation
 
-### Prerequisites
-* Python 3.8 or higher
-* A computer with internet access (Standard CPU is sufficient for inference).
-
-### Steps: 
-
 #### Step 1: Clone the Repository
 Clone the project and navigate to the GUI directory:
 ```bash
@@ -70,6 +64,7 @@ streamlit run app.py
 The application will automatically open in your default web browser (usually at http://localhost:8501).
 
 1. Upload: Drag and drop a pathology image into the file uploader.
+
 **Important Note**: Please ensure the input image is at 400x magnification. Using images with other magnification levels (e.g., 40x, 100x, 200x) may result in inaccurate predictions as the model focuses on cellular details visible at 400x.
 
 2. Analyze: Click the "Analyze Image" button.
@@ -92,6 +87,4 @@ Std: [0.143, 0.201, 0.116]
 Optimization: Trained using CrossEntropyLoss and Adam optimizer.
 
 
-###  Disclaimer
-For Research and Educational Purposes Only. This tool is intended to demonstrate the capabilities of artificial intelligence in medical imaging analysis. It is not a certified medical device and should not be used for final clinical diagnosis or treatment decisions without the supervision of a qualified pathologist or medical professional.
 
