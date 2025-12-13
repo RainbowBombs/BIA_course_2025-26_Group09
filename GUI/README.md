@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# 🔬 Breast Cancer Pathology AI Diagnosis
+#  Breast Cancer Pathology AI Diagnosis
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-ResNet18-red)
