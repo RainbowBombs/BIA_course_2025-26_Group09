@@ -21,7 +21,7 @@ import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 from torchvision import models, transforms
 from PIL import Image
-
+from tqdm import tqdm
 import pandas as pd
 
 
@@ -50,9 +50,55 @@ print(f"[INFO] Using device: {DEVICE}")
 
 CLASS_TO_IDX = {"benign": 0, "malignant": 1}
 
+
+num_channels = 3   
+
+transform = transforms.Compose([
+    transforms.Resize((700, 460)),
+    transforms.ToTensor()
+])
+
+pixel_sum = torch.zeros(num_channels)
+pixel_sum_sq = torch.zeros(num_channels)
+num_pixels = 0
+
+
+img_files = []
+for class_name in os.listdir(BREAKHIS_ROOT):
+    class_path = os.path.join(BREAKHIS_ROOT, class_name)
+
+    if os.path.isdir(class_path):
+        for fname in os.listdir(class_path):
+            if fname.lower().endswith((".jpg", ".jpeg", ".png")):
+                img_files.append(os.path.join(class_path, fname))
+
+print(f"Found {len(img_files)} images to compute mean/std.\nStart computing...")
+
+
+for img_path in tqdm(img_files):
+    img = Image.open(img_path).convert("RGB")
+    img = transform(img) 
+
+    pixel_sum += img.sum(dim=[1, 2])
+    pixel_sum_sq += (img ** 2).sum(dim=[1, 2])
+    num_pixels += img.shape[1] * img.shape[2]
+
+mean = pixel_sum / num_pixels
+std = torch.sqrt(pixel_sum_sq / num_pixels - mean ** 2)
+
+print("\n=== Final Result ===")
+print("Mean:", mean.tolist())
+print("Std :", std.tolist())
+
+
+#=== Final Result ===
+#Mean: [0.755842387676239, 0.5889061689376831, 0.7419362664222717]
+#Std : [0.14278094470500946, 0.20091958343982697, 0.1162722110748291]
+
+
 # Mean / std previously computed on the training set
-MEAN = [0.755842387676239, 0.5889061689376831, 0.7419362664222717]
-STD = [0.14278094470500946, 0.20091958343982697, 0.1162722110748291]
+MEAN = mean.tolist()
+STD = std.tolist()
 
 
 # ============================================================
