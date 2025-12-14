@@ -61,6 +61,13 @@ To launch the application, run the following command in your terminal:
 ```bash 
 streamlit run app.py
 ```
+
+or
+
+```bash 
+python -m streamlit run app.py
+```
+
 The application will automatically open in your default web browser (usually at http://localhost:8501).
 
 1. Upload: Drag and drop a pathology image into the file uploader.
@@ -78,7 +85,7 @@ Architecture: BreaKHis Analysis Network (Pre-trained on ImageNet).
 
 Input Resolution: 700x460 pixels (Resized automatically during preprocessing).
 
-Normalization Statistics:
+Normalization Statistics (Based on BreaKHis 400X Train dataset):
 
 Mean: [0.756, 0.589, 0.742]
 
