@@ -22,6 +22,7 @@ IMG_HEIGHT = 700
 IMG_WIDTH = 460
 
 # Normalization parameters
+# 👇 The result is based on the BreaKHis 400X Train dataset
 NORM_MEAN = [0.756, 0.589, 0.742]
 NORM_STD = [0.143, 0.201, 0.116]
 
